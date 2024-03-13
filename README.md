@@ -1,10 +1,11 @@
-# CYBERSHIELD-PROJECT/about the project
+# about the project
 The product of cyno-hackathon organized by the Broken Technologies, the event aims to provide positive solutions to cybersecurity challenges in TANZANIA and world at large.
 A team of four tech entuasist across various university grap this opportunity in making  transformation from Idea to a product and future tech company.
 
 About the product.
 
 PRODUCT: CYBERSHIELD TANZANIA 
+
 DEVELOPMENT TEAM: CYBERSHIELD CODERS TM. (aruga0106,ndoshi-jpg, davis-dol& dinales mdollo )
 CATEGORY: SOFTWARE SOLUTION
 PHASE I DEVELOPMENT: 27.10.2023-18.03.2024
