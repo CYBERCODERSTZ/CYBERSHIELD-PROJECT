@@ -1,0 +1,1126 @@
+{
+  "id": 3231,
+  "name": "CyberCoach",
+  "description": "AI-powered virtual assistant designed to serve as an interactive information portal for users seeking guidance on cybersecurity-related topics including common security incident response and guidance to protocols.",
+  "industry": "Consulting",
+  "visible_on_community": false,
+  "flows": {
+    "thanks": {
+      "message": [
+        [
+          "You're warmly Welcome. I'm happy to assist you."
+        ],
+        [
+          "Thanks to you. I'm here to help you."
+        ],
+        [
+          "I'm glad I could be of assistance."
+        ],
+        [
+          "It's my pleasure to assist you."
+        ]
+      ],
+      "next_state": "end"
+    },
+    "company_info_1": {
+      "message": [
+        "CyberShield is Tanzania's largest integrated platform for security awareness training. We combine simulated phishing attacks, incident response plan templates, and disaster recovery plans tailored for small and medium-scale businesses. Our platform is designed to break the chains of technical and language barriers, offering effective mass-delivered awareness training in multiple languages, including Swahili."
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "company_info_2": {
+      "message": [
+        "CyberShield Tanzania Inc. solely operates our platform. We are dedicated to providing person privacy cultural practices highlights and social engineering attack avoidance techniques. Our registry is under precedence, ensuring the highest standards of operation."
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "company_info_3": {
+      "message": [
+        "CyberShield is your platform for new-school security awareness training. We keep your users on their toes with security top of mind. Gain access to free awareness training programs, engage in real-time phishing attack simulations, and create business continuity plans using our localized and industry-based techniques."
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "company_info_5": {
+      "type": "text",
+      "next_state": "end",
+      "message": [
+        "At CyberShield, we emphasize the importance of cultural values and local techniques in divulging personal information. We develop real-world scenarios tailored to the Tanzanian context, ensuring effective and relatable security training experiences. Additionally, we encourage a collaborative effort among cyber security specialists across private and government agencies to leverage the power of our security posture."
+      ]
+    },
+    "company_info_6": {
+      "message": [
+        "As one of the products from cyno-hackathon organized in 2023 by broken technologies a group of professionals led by Eng. Godwin Aruga, alongside, Zephania Ndoshi, Dinnaless Mdollo and Davis Dol, put forward visionary impact to the outstanding of our platform and team at large.\n"
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "company_info_7": {
+      "message": [
+        "We offer a range of services including Security Awareness Training, Phishing Simulation, IT Security Consultancy, Training Management System, Cyber Rescue using trained chatbot, and Software Solutions, these services are designed to address various cybersecurity needs and empower businesses to navigate the digital landscape securely."
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "company_info_8": {
+      "message": [
+        "At CyberShield, we offer a range of services tailored to enhance your cybersecurity posture and protect your business. Our offerings include:",
+        "1. Security Awareness Training: We provide industrial-based and customized training to employees and businesses, leveraging security posture through awareness.",
+        "2. Phishing Simulations: Our localized and trending social engineering practices empower employees to navigate real-world phishing scenarios effectively.",
+        "3. IT Security Consultancy: We facilitate connections with security experts worldwide to build and maintain robust IT infrastructures, ensuring business continuity.",
+        "4. TMS System: With our CyberShield Learning Management System, we bring together employees from different locations for unified training and seminars.",
+        "5. Cyber Rescue: Interact with our trained AI module cyber coach to respond to real-time cybersecurity incidents at your convenience.",
+        "6. Software Solutions: Our subsidiary workforce, CyberShield Coders TM, builds and maintains your company's digital profile, ensuring a safe digital space."
+      ]
+    },
+    "company_info_9": {
+      "message": [
+        "No need to worry about cost, cybershield operate its services under acceptable use policy, and legal service provision agreement signed with the respective entity, however for the massive campaign to promote security awareness most of services are free and few are offered at low cost, you can send a quote to generate legal service agreement."
+      ]
+    },
+    "company_info_10": {
+      "message": [
+        "Your contribution empowers individuals with the knowledge and skills to navigate the digital world securely, by supporting service costs and management operations of our company you become Ambassador of digital privacy and security.\n"
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "company_info_4": {
+      "message": [
+        "With CyberShield, you get on-demand, interactive, and engaging training through your internet browser. Experience unlimited simulated social engineering attacks through email, phone, and text. Our platform aims to build an outstanding human firewall as the first line of defense through effective security awareness training."
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "incident_processing_recieved_wrong_transaction": {
+      "message": [
+        "If You Have Received a Wrong Wire Transfer, it's mandatory to avoid the post issues including facing customs by doing the following.",
+        "",
+        "*1.Do Not Spend the Funds.*",
+        "If you receive funds in error, do not use or spend the money. Keep the funds untouched in your account to avoid complications. Keeping the funds untouched in your account is crucial to avoid complications and potential legal issues. It is essential to act with integrity and honesty in such situations to ensure a smooth resolution. Additionally, promptly notifying your bank or financial institution about the erroneous transfer can help in resolving the issue efficiently and ethically.",
+        "",
+        "*2.Contact Your Bank.*",
+        "Contacting your bank immediately and informing them of the situation is crucial if you receive funds in error. Provide your bank with details about the incoming transaction, including the amount and any information about the sender. This will enable the bank to initiate the necessary steps to investigate and rectify the error. Prompt communication with your bank can help prevent any potential complications and demonstrate your commitment to resolving the issue responsibly.",
+        "",
+        "*3.Cooperate with the Investigation.*",
+        "It's important to cooperate fully with the bank's investigation if you receive funds in error. Banks typically conduct an investigation to determine the best course of action in such situations. Providing any requested information or documentation to the bank will help facilitate the resolution process. By cooperating with the investigation, you can assist the bank in rectifying the error and ensuring that the funds are handled appropriately.",
+        "",
+        "*4.Return the Funds if Instructed.*",
+        "If your bank instructs you to return the funds after an erroneous transfer, it's important to follow their guidance. Returning the funds promptly can help in resolving the issue more efficiently and can demonstrate your commitment to rectifying the error. Adhering to your bank's instructions in such situations is essential for ensuring a smooth and ethical resolution."
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "incident_processing_prevent_wrong_transaction": {
+      "type": "text",
+      "next_state": "end",
+      "message": [
+        "Ensuring confident transaction is crucial aspect of e-commerce principles, however inclusive of human error the following reduce the rate of uncertain wire transfer.",
+        "",
+        "*1.Verify Recipient Information.*",
+        "Verifying recipient information is a crucial step before initiating a wire transfer. It involves double-checking and confirming the accuracy of the recipient's details, including the account number and bank information. This verification process helps to ensure that the funds are directed to the correct recipient and minimizes the risk of errors or misdirected transfers. By meticulously verifying recipient information, you can enhance the security and accuracy of the wire transfer process.",
+        "",
+        "*2.Use Official Channels.*",
+        "Using official and secure channels provided by your bank or financial institution for wire transfers is essential to ensure the safety and reliability of the transaction. It's important to avoid using unofficial or unsecured methods, as they may pose a higher risk of fraud or unauthorized access to your financial information. By utilising the official channels, you can benefit from enhanced security measures and minimise the potential for unauthorised access or fraudulent activities during the wire transfer process.",
+        "",
+        "*3.Keep Records.*",
+        "Maintaining records of all wire transfer transactions, including confirmation emails, receipts, and any other relevant documentation, is essential for tracking and verifying the details of each transfer. This practice helps in ensuring transparency, providing evidence of the transaction, and facilitating easy retrieval of information if needed in the future.",
+        "",
+        "*4.Review Transaction Details.*",
+        "Carefully reviewing all transaction details before confirming the transfer is a crucial step to ensure accuracy and prevent errors. This includes verifying the recipient's information, the amount to be transferred, and any additional fees or charges. Taking the time to review the transaction details can help to identify and rectify any potential mistakes before finalizing the transfer, thus minimizing the risk of sending funds to the wrong recipient or in the incorrect amount.",
+        "",
+        "*5.Be Cautious with Email Instructions.*",
+        "Be wary of email instructions for wire transfers, especially if they seem unexpected or unusual. Verify such instructions through a separate, trusted communication channel."
+      ]
+    },
+    "incident_processing_reverse_transaction": {
+      "type": "text",
+      "next_state": "end",
+      "message": [
+        ""
+      ]
+    },
+    "faqs_cybershield": {
+      "menu_buttons": {
+        "body": "*CyberShield*\nYour trusted Cyber Security consultants.\n\nTanzania's largest integrated platform for security awareness training. We combine simulated phishing attacks, incident response plan templates, and disaster recovery plans tailored for small and medium-scale businesses. Our platform is designed to break the chains of technical and language barriers, offering effective mass-delivered awareness training in multiple languages, including Swahili.",
+        "header": "FAQs",
+        "footer": "CyberShield Tanzania - 2024",
+        "action": {
+          "button": "More About Us",
+          "sections": [
+            {
+              "title": "About Us",
+              "rows": [
+                {
+                  "id": "company_info_2",
+                  "description": "Who operates CyberShield?",
+                  "title": "Operators"
+                },
+                {
+                  "id": "company_info_3",
+                  "description": "What role does CyberShield play?",
+                  "title": "Role of CyberShield"
+                },
+                {
+                  "id": "company_info_4",
+                  "description": "How does CyberShield help in security training?",
+                  "title": "How we work"
+                },
+                {
+                  "id": "company_info_5",
+                  "description": "What sets CyberShield apart from other platforms?",
+                  "title": "What distinguishes us"
+                },
+                {
+                  "id": "company_info_6",
+                  "description": "Who founded CyberShield?",
+                  "title": "Our Founders"
+                },
+                {
+                  "id": "company_info_7",
+                  "description": "What services does CyberShield offer?",
+                  "title": "Our Services"
+                },
+                {
+                  "id": "company_info_8",
+                  "description": "What services does CyberShield offer specifically?",
+                  "title": "Service details"
+                },
+                {
+                  "id": "company_info_9",
+                  "description": "What is the cost of CyberShield's services?",
+                  "title": "Service Charges"
+                },
+                {
+                  "id": "company_info_10",
+                  "description": "Why should I donate to CyberShield?",
+                  "title": "Support us 👏😎"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "next_state": "end",
+      "type": "interactive"
+    },
+    "cancel": {
+      "message": [
+        "Sure, successfully cancelled!, is there anything else i can help you with?"
+      ],
+      "next_state": "end",
+      "type": "interactive",
+      "buttons": [
+        {
+          "greetings": "Home"
+        },
+        {
+          "thanks": "Thanks, Goodbye"
+        }
+      ]
+    },
+    "bye": {
+      "message": [
+        [
+          "Welcome again!. happy to serve you"
+        ],
+        [
+          "Have a nice day."
+        ],
+        [
+          "Goodbye!, Thanks for staying secure."
+        ]
+      ],
+      "next_state": "end"
+    },
+    "description": {
+      "message": [
+        "*CyberCoach* is an AI-powered virtual assistant designed to serve as an interactive information portal for users seeking guidance on cybersecurity-related topics including common security incident response and guidance to protocols. It is tailored to meet the specific needs of our business, with plans for continuous improvement based on user feedback and insights gained during the development process. We encourage users to engage with CyberCoach and provide feedback, as we work towards creating a comprehensive and user-friendly virtual assistant to enhance cyber-security awareness and support within our organization."
+      ],
+      "type": "text",
+      "next_state": "end",
+      "images": [
+        {
+          "link": "https://sarufi-media.s3.amazonaws.com/1_cyber_coach-3f53c9c4-d.png",
+          "caption": "CyberCoach || 1.0 Forerunner"
+        }
+      ]
+    },
+    "incident_processing_cases_prevent_dos_attack": {
+      "message": [
+        "*DoS | Android*",
+        "Below are some specific steps you can take to help protect your Android",
+        "smartphone from potential DoS attacks;",
+        "",
+        " *1. Install a Reliable Security App.*",
+        "Use a reputable antivirus and security app from a trusted provider. These apps can help detect and block malicious activities.",
+        "",
+        "*2. Keep Software Updated.*",
+        "Regularly update your Android operating system and all installed applications to patch vulnerabilities and improve security.",
+        "",
+        "*3. Use a Firewall App.*",
+        "Consider using a firewall app for Android that allows you to control the network traffic going in and out of your device.",
+        "",
+        "*4.Be Cautious with Apps.*",
+        "Only download apps from official app stores, such as Google Play. Avoid side-loading apps from untrusted sources, as they may contain malicious code.",
+        "",
+        "*5. Review App Permissions.*",
+        "Review the permissions requested by apps before installing them. Avoid granting unnecessary permissions that could potentially be exploited in an attack.",
+        "",
+        "*6. Enable \"Do Not Disturb\" mode when junk notification clutters.*",
+        "Use the \"Do Not Disturb\" mode to silence notifications and reduce the impact of continuous alerts that may accompany a DoS attack.",
+        "",
+        "*7. Limit Background Processes.*",
+        "In your device settings, limit the number of background processes and apps running in the background to conserve resources and reduce the impact of a potential attack.",
+        "",
+        "*8. Use a VPN.*",
+        " Consider using a Virtual Private Network (VPN) to encrypt your internet connection and protect against certain types of attacks.",
+        "",
+        "*9. Stay Informed.*",
+        "Stay informed about the latest security threats and best practices for mobile security. Follow security updates from Android and your device manufacturer.",
+        "",
+        "*10.Connect to Secure Wi-Fi Networks.*",
+        "Avoid connecting to unsecured Wi-Fi networks, use encrypted Wi-Fi connections when connecting to public Wi-Fi.",
+        "",
+        "*11. Enable Google Play Protect.* ",
+        "Ensure that Google Play Protect is enabled. This feature scans apps for malware and helps keep your device secure.",
+        ""
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "incident_processing_cases_dos_attack": {
+      "message": [
+        "If your device has been compromised with a Denial-of-Service (DoS) Attack, it is important to take immediate action to prevent further damage. Most of large and medium enterprise has business continuity plan, disaster recovery procedures and incident handling mechanism documented or call for the experts.",
+        "",
+        "Incase of no documentation, follow these basic immediate measures.",
+        "",
+        "*1. Disconnect from the Network.*",
+        "Disconnect your device from the network to prevent the attacker from continuing the attack.",
+        "",
+        "*2. Contact Your ISP.*",
+        "Contact your Internet Service Provider (ISP) to report the attack and seek assistance.",
+        "*",
+        "3. Configure Your Server.*",
+        "Configure your server to limit the number of requests at a given time."
+      ],
+      "next_state": "end",
+      "type": "interactive",
+      "buttons": [
+        {
+          "incident_processing_cases_prevent_dos_attack": "Prevent DoS Attack"
+        }
+      ]
+    },
+    "incident_processing_cases_prevent_data_breach": {
+      "type": "text",
+      "next_state": "end",
+      "message": [
+        "As cyber criminals become more advanced, the consequences of having even a small bit of information about you stolen are becoming more and more serious. Even with an email address or password, malicious actors are, in some cases, able to find more sensitive and powerful data in very little time",
+        "Strong Passwords and MFA",
+        "As previously mentioned, good cyber security starts with a strong password that is regularly changed (every 3 to 6 months). A strong password usually consists of at least 8 characters (we recommend 10 to 12). This should that are a mixture of letters, numbers, and symbols (if they are permitted). Never include personal information in your passwords such as your parents’, kids’, pets’ names or even your date of birth.",
+        "Keep your software up to date",
+        "Often, large companies will provide essential security patches and changes via software updates",
+        "Back up your data regularly",
+        "In order to prevent permanent loss of data and important information, we recommend having a backup of your personal data, either held in an external drive or stored securely off-site. Regularly backing up your data means that your information does not have to be constantly stored on your device and anything lost will still be accessible after the initial breach.",
+        "Update your email address book",
+        "Whether you’re working in an office, from home or freelancing on the go, it’s always prudent to ask your clients to notify you if they change their address or other contact details. Equally, you should periodically ask them if they have had any personal breaches themselves. Both of these measures will prevent malicious",
+        "actors from accessing your information through identity theft of a colleague/client or a phishing scam.",
+        "Use secure URLs",
+        "This is an essential part of general IT hygiene for all users today. If you receive a link from a colleague or outside source, only open URLs that begin with HTTPS. Equally, when visiting websites online, it is important that they are trusted, often indicated by a padlock on the left of your browser’s search bar.",
+        "Review your access controls",
+        "As homeworking becomes more commonplace, it is clear that access to a broader range of software and permissions is needed. However, this does not apply to everyone. If you’re worried about security breaches on your work laptop, talk to your IT department about tightening your access controls.",
+        ""
+      ]
+    },
+    "incident_processing_cases_data_breach": {
+      "message": [
+        "1. Figure out what data was breached and check for updates",
+        "Sometimes, companies do not reveal exactly which customers have had their information stolen or what kind of data was taken. However, just because they don’t guarantee that your information was part of the breach, it doesn't mean you shouldn't act check with the company and ask them what type of information that includes. The most common forms of stolen personal data are:",
+        "Email, Password, Name, Phone Number, Address, Credit Card Information, Social Security Number etc.",
+        "Changing and/or verifying that this information is secure after a privacy breach can be costly, time-consuming, or both. CyberShield recommend that you work in order of priority, based on what information was exposed, start by securing the most sensitive information like credit, and personal identifiable information) PII then following others for security updates regarding the breach.",
+        "2. Update any exposed credentials",
+        "If you think your email address or password has been exposed, yes, whether in combination or individually, you should change them right away. If you have reused your password on multiple sites in the past, it is important to update all your old logins and follow good password hygiene from now on. We recommend using a “strong” password, which will be covered in detail later in this article. In general, it’s best practice to have multiple passwords that are updated regularly (every 3 to 6 months).",
+        ".",
+        "3. Sign up for two-factor authentication",
+        "Double your online security by signing up for “two-factor authentication” wherever the option is available. Sometimes referred to as “two-step verification\"",
+        "(or “2FA\" for short), two-factor authentication is an extra level of security for your online accounts that requires you to enter an additional piece of identifying information",
+        "4. Monitor all your accounts",
+        "In recent years, hackers have grown very advanced in their methods. One set of exposed credentials can be easily cross-checked across many different websites, social media pages and subscriptions/memberships. If any of your passwords are duplicated across platforms, cyber criminals could quickly gain access to profile information that reveals even more about you, such as personal email addresses, phone numbers and even a physical address.",
+        "5. Protect your financial privacy",
+        "If payment information was leaked as part of a data breach, you should ask your card provider to lock or pause your cards right away and send you a replacement one. By locking the cards, you prevent new purchases from occurring with the leaked card number, and the replacement card will have a new number assigned to it, allowing you to continue with your normal purchases.",
+        "Even if your payment information is safe, it's a good idea to set up credit monitoring. This will alert you when there are any changes to your credit report, like if someone applies for new credit in your name.",
+        "If you are sure that your financial details have been exposed and you have seen changes, you should take steps to freeze your credit. There is no cost incurred by doing this and it will prevent malicious actors from opening new credit accounts in your name."
+      ],
+      "next_state": "end",
+      "type": "interactive",
+      "buttons": [
+        {
+          "incident_processing_cases_prevent_data_breach": "Prevent a breach"
+        }
+      ]
+    },
+    "incident_processing_cases_find_lost_device": {
+      "message": [
+        "Google provides an app and website called *Find My Device*, which lets you seek out your missing Android, secure it, and erase all data. Samsung devices have an additional feature called *Find My Mobile*, which allows you to track down your lost device. You can follow the procedures highlighted in our incident reporting to solve the issue or check for the experts."
+      ]
+    },
+    "site_functionality_register": {
+      "message": [
+        "Navigate to www.cybershield.ac.tz, and then click the *login* button at the top conner of the page, be sure to enter your accurate information to *register*",
+        ""
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "site_functionality_forgot_password": {
+      "type": "text",
+      "next_state": "end",
+      "message": [
+        "Meanwhile we keep developing self-service functionality for our systems, the *CyberShield support* team will reach you for assistance, send an email through to support@cybershield.ac.tz"
+      ]
+    },
+    "site_functionality_use_tms_system": {
+      "type": "text",
+      "next_state": "end",
+      "message": [
+        "If you or your company wants to use the *Training Management System (TMS)* send a quote message from our website with your information dully filled, our operator(s) will make necessary preparation  for your account and further contact will be made for the process through contact info you provide.\n"
+      ]
+    },
+    "site_functionality_service_capacity": {
+      "type": "text",
+      "next_state": "end",
+      "message": [
+        "Our systems are able to support and dully serve as many users as there are registered."
+      ]
+    },
+    "site_functionality_how_improve_security": {
+      "type": "text",
+      "next_state": "end",
+      "message": [
+        "*CyberShield* offers a range of services such as Security Awareness Training, Phishing Simulations, and IT Security Consultancy to enhance your cybersecurity posture."
+      ]
+    },
+    "site_functionality_about_awareness_training": {
+      "type": "text",
+      "next_state": "end",
+      "message": [
+        "Our Security Awareness Training provides industrial-based and customised training to employees and businesses, leveraging security posture through awareness."
+      ]
+    },
+    "site_functionality_how_phishing_simulator_works": {
+      "message": [
+        "We utilise localised and trending social engineering practices to train employees to navigate real-world phishing scenarios effectively."
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "site_functionality_about_security_consultancy": {
+      "type": "text",
+      "next_state": "end",
+      "message": [
+        "We provide a one-stop connection with security experts worldwide to build and maintain robust IT infrastructures, ensuring business continuity."
+      ]
+    },
+    "site_functionality_how_tms_works": {
+      "message": [
+        "Our TMS System brings together employees from different locations for unified training and seminars, enhancing learning efficiency with our CyberShield Learning Management System."
+      ]
+    },
+    "site_functionality_how_rescue_works": {
+      "message": [
+        "With *Cyber Rescue*, interact with our trained AI module *CyberCoach* to respond to real-time cybersecurity incidents at your convenience, ensuring prompt and effective incident response."
+      ]
+    },
+    "site_functionality_about_software_solutions": {
+      "message": [
+        "*CyberShield Coders TM*, our subsidiary workforce, builds and maintains your company's digital profile, ensuring a safe digital space with our software solutions such as web development, mobile app development, integrated system design and embedded system design and programming."
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "site_functionality_about_effective_services": {
+      "message": [
+        "We continuously innovate and update our services to stay ahead of evolving cyber-security threats, ensuring the highest level of effectiveness for our clients."
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "site_functionality_about_specific_industry_requirements": {
+      "message": [
+        "Yes, we offer customized solutions tailored to meet the unique cybersecurity needs of various industries, ensuring comprehensive protection for businesses of all types."
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "site_functionality_about_getting_started": {
+      "message": [
+        "You can get started by contacting us directly or exploring our website to learn more about our offerings and how we can tailor our services to meet your specific cybersecurity needs."
+      ]
+    },
+    "out_of_database_unavailable_topic": {
+      "message": [
+        [
+          "I'm sorry, I don't have information on the subject at the moment. However, I'm here to assist you with any questions you may have about our services or any other related topics. Feel free to ask, and I'll do my best to help, however you can contact our support team immediately for more clarification."
+        ],
+        [
+          "I appreciate your interest in that aspect. While I don't have information specifically on that topic, I'm here to assist you with any questions you may have about our services or related areas. Please feel free to ask, and I'll do my best to provide helpful information, however you can contact our support team immediately for more clarification."
+        ]
+      ]
+    },
+    "out_of_database_about_cybercoach": {
+      "message": [
+        "I'm an AI-powered chatbot created to assist you with any questions you may have about *CyberShield* Team and our services. Whether you're interested in learning more about cybersecurity incidents and their response, exploring our products, or seeking assistance, I'm here to help! let me know what you'd like to know, and I'll provide the information you need.",
+        "",
+        "Simply, they call me *CyberCoach*"
+      ],
+      "next_state": "end",
+      "type": "interactive",
+      "buttons": [
+        {
+          "description": "About | CyberCoach"
+        }
+      ]
+    },
+    "out_of_database_bogus_1": {
+      "type": "text",
+      "next_state": "end",
+      "message": [
+        "It seems like you're asking about weather information, but our focus is on *cybersecurity services*. If you have any questions related to our services or cybersecurity in general, feel free to ask, and I'll be happy to assist you!"
+      ]
+    },
+    "out_of_database_bogus_3": {
+      "message": [
+        "While I'm not equipped to provide information on poultry anatomy, I'm here to assist you with questions related to cybersecurity and our services. Is there anything specific you'd like to know?"
+      ]
+    },
+    "out_of_database_bogus_4": {
+      "message": [
+        "As an AI chatbot, I don't have personal preferences like favorite colors. However, I'm here to help answer any questions you may have about cybersecurity or our services. Let me know how I can assist you!"
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "out_of_database_bogus_5": {
+      "type": "text",
+      "next_state": "end",
+      "message": [
+        "While the topic of extraterrestrial life is fascinating, our focus here is on cybersecurity. If you have any questions related to cybersecurity practices, awareness training, or our services, feel free to ask!"
+      ]
+    },
+    "out_of_database_unclear": {
+      "type": "text",
+      "next_state": "end",
+      "message": [
+        [
+          "I'm sorry, I didn't quite understand your question. Could you please provide more context or clarify what you're looking for? That way, I can assist you more effectively."
+        ],
+        [
+          "It seems like there may be some confusion with your question. Could you rephrase or provide additional details so I can better understand and assist you?"
+        ],
+        [
+          "I'm here to help, but I'm not sure I understand your question. Can you provide more information or specify what you're looking for? I'll do my best to assist you once I have a clearer understanding."
+        ]
+      ]
+    },
+    "out_of_database_riddle": {
+      "message": [
+        "*I'm a deceptive lure, a digital scheme,",
+        "In your inbox, I might seem routine.",
+        "But beware! My intent is not what it seems.",
+        "A simple click can shatter dreams.",
+        "In the web's dark abyss, I'm a threat that preys",
+        "on carelessness.*",
+        "under capital reflected scores.",
+        "What am I?"
+      ]
+    },
+    "out_of_database_easteregg": {
+      "message": [
+        ""
+      ],
+      "type": "text",
+      "next_state": "end",
+      "images": [
+        {
+          "link": "https://sarufi-media.s3.amazonaws.com/Screenshot_20240314_163506_Gmail-11329dc0-5.jpg",
+          "caption": "You've cracked the secrets of cyber resilience!.\n Remain vigilant, seek the treasure in protection, and keep your security protocols airtight! 😎🥂"
+        }
+      ]
+    },
+    "incident_processing_made_wrong_transaction": {
+      "message": [
+        "Sure, if you have initiated a wrong wire transfer, it's important to take immediate action to address the situation. Here are steps to follow in case of a wrong wire transfer:",
+        "",
+        "*1. Contact Your Bank or Financial provider*",
+        "Notify your bank as soon as you realize the mistake. Provide them with all the relevant details, including the transaction reference number, the amount, and the recipient's information.",
+        "",
+        "*2. Request a Recall or Reversal*:",
+        "Ask your bank to initiate a recall or reversal process. However, keep in mind that the success of this process depends on various factors, including the policies of the involved banks and the time elapsed since the transfer.",
+        "",
+        "*3. ProvideDocumentation*",
+        "Be prepared to provide any necessary documentation, such as proof of the error and communication with the recipient. This may be required by the banks during the investigation process.",
+        "",
+        "*4. Follow Up*:",
+        "Regularly follow up with your bank to check on the progress of the recall or reversal. Stay in communication with them until the matter is resolved."
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "greetings": {
+      "message": [
+        [
+          "Hello! Welcome to CyberShield. How can I assist you today?"
+        ],
+        [
+          "Hello there. How can I assist you today?"
+        ],
+        [
+          "Hi there! How can I help you in solving your security incident right now?"
+        ],
+        [
+          "Thanks for choosing us in leveraging your security posture, how may I help you today?"
+        ],
+        [
+          "Good day! It's great to see you here at CyberShield. How may I assist you today?"
+        ],
+        [
+          "Good day! Welcome to CyberShield. How can I help you today?"
+        ],
+        [
+          "Well hello! I'm here to assist you with any question relating to our service and incident response. How can I be of service?"
+        ],
+        [
+          "Well Hello!, Thanks for choosing us in leveraging your security posture, how can I help you in dealing with your security incident?"
+        ]
+      ],
+      "next_state": "end",
+      "type": "interactive",
+      "buttons": [
+        {
+          "incident_processing_mainmenu": "Security Incidents"
+        },
+        {
+          "faqs_main": "About | FAQs"
+        }
+      ],
+      "images": [
+        {
+          "link": "https://sarufi-media.s3.amazonaws.com/1_cyber_coach-17ddd6d7-8.png",
+          "caption": "CyberCoach || 1.0 Forerunner "
+        }
+      ]
+    },
+    "incident_processing_report": {
+      "message": [
+        "Sure! I will be glad to hear out your issue and help you, remember some responses must be kept confidential and not to be disclosed to any other unauthorised persons."
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "incident_processing_report_comingsoon": {
+      "message": [
+        "Please report any incident through our *CyberSield website* while we work around the clock to bring this service right here, closer to you!",
+        "",
+        "website: https://cybershield.cyber-innovation-hackathon.xyz"
+      ],
+      "type": "text",
+      "next_state": "end"
+    },
+    "incident_processing_mainmenu": {
+      "message": [
+        "*Security Incidents*"
+      ],
+      "next_state": "end",
+      "type": "interactive",
+      "buttons": [
+        {
+          "incident_processing_report_comingsoon": "Report an Incident"
+        },
+        {
+          "incident_processing_common_incidents": "Common Incidents"
+        }
+      ]
+    },
+    "faqs_main": {
+      "message": [
+        "*FAQs*",
+        "",
+        "Get to know more from frequently asked questions from users all around Africa, above and beyond!"
+      ],
+      "next_state": "end",
+      "type": "interactive",
+      "buttons": [
+        {
+          "description": "About - CyberCoach"
+        },
+        {
+          "faqs_cybershield": "About - CyberShield"
+        },
+        {
+          "site_functionality_faqs_site_and_services": "Website & Services"
+        }
+      ]
+    },
+    "incident_processing_common_incidents": {
+      "menu_buttons": {
+        "body": "Based on analysis, there are a number of common security incidents occurring in the country that you ought be familiar with.",
+        "header": "Common Incidents",
+        "footer": "CyberShield Tanzania - 2024",
+        "action": {
+          "button": "View Incidents",
+          "sections": [
+            {
+              "title": "Common Incidents",
+              "rows": [
+                {
+                  "id": "incident_processing_made_wrong_transaction",
+                  "description": "I have transferred funds to a wrong person/account, what should I do?",
+                  "title": "Incorrect Transfer"
+                },
+                {
+                  "id": "incident_processing_prevent_wrong_transaction",
+                  "description": "What can I do to avoid incorrect money transfers?",
+                  "title": "Avoid Incorrect transfer"
+                },
+                {
+                  "id": "incident_processing_recieved_wrong_transaction",
+                  "description": "I have received funds from an unknown person/account, what should I do?",
+                  "title": "Unknown Transfer"
+                },
+                {
+                  "id": "incident_processing_cases_dos_attack",
+                  "description": "What should I do incase of a Denial-of-Service (DoS) Attack?",
+                  "title": "DoS Attack"
+                },
+                {
+                  "id": "incident_processing_cases_data_breach",
+                  "description": "My private information has been breached what should I do?",
+                  "title": "Information Breach"
+                },
+                {
+                  "id": "incident_processing_cases_find_lost_device",
+                  "description": "I lost my phone, how can I get it or track it down?",
+                  "title": "Lost Device"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "next_state": "end",
+      "type": "interactive"
+    },
+    "site_functionality_faqs_site_and_services": {
+      "menu_buttons": {
+        "body": "Here are some frequently asked questions about our Website & Services",
+        "header": "FAQs",
+        "footer": "CyberShield Tanzania - 2024",
+        "action": {
+          "button": "See Questions",
+          "sections": [
+            {
+              "title": "Site and Services",
+              "rows": [
+                {
+                  "id": "site_functionality_register",
+                  "description": "How can I register for a CyberShield account?",
+                  "title": "Registration"
+                },
+                {
+                  "id": "site_functionality_forgot_password",
+                  "description": "I've forgotten my password, what should I do?",
+                  "title": "Forgot Password"
+                },
+                {
+                  "id": "site_functionality_use_tms_system",
+                  "description": "How can I use the Training Management System?",
+                  "title": "About TMS"
+                },
+                {
+                  "id": "site_functionality_service_capacity",
+                  "description": "How many users can the TMS/ Phishing Simulator accommodate?",
+                  "title": "Service Capacity"
+                },
+                {
+                  "id": "site_functionality_how_improve_security",
+                  "description": "How can CyberShield help my business improve its cybersecurity posture?",
+                  "title": "Business Security"
+                },
+                {
+                  "id": "site_functionality_about_awareness_training",
+                  "description": "Can you tell me more about CyberShield's Security Awareness Training?",
+                  "title": "Awareness Training"
+                },
+                {
+                  "id": "site_functionality_how_phishing_simulator_works",
+                  "description": "How does CyberShield conduct its Phishing Simulations?",
+                  "title": "Phishing Simulations"
+                },
+                {
+                  "id": "site_functionality_about_security_consultancy",
+                  "description": "What is unique about CyberShield's IT Security Consultancy?",
+                  "title": "Security Consultancy"
+                },
+                {
+                  "id": "site_functionality_how_rescue_works",
+                  "description": "How does CyberShield's Cyber Rescue service work?",
+                  "title": "Cyber Rescue"
+                },
+                {
+                  "id": "site_functionality_about_software_solutions",
+                  "description": "What software solutions does CyberShield offer?",
+                  "title": "Software Solutions"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "next_state": "end",
+      "type": "interactive"
+    }
+  },
+  "intents": {
+    "greetings": [
+      "hello",
+      "How are you?",
+      "You good?",
+      "how is you day?",
+      "how was you day?",
+      "you cool?",
+      "how are you doing?",
+      "you fine?",
+      "you healthy?",
+      "hola",
+      "Good morning?",
+      "Good afternoon?",
+      "Good evening?",
+      "How is your day?",
+      "How was your day?",
+      "yoh",
+      "Hi",
+      "hey",
+      "Hello",
+      "hellow",
+      "Hello, how are you today?",
+      "Hello, nice to meet you.",
+      "Hello, Im happy to see you again."
+    ],
+    "thanks": [
+      "Thank you",
+      "God bless you",
+      "thank you so much",
+      "thank you very much",
+      "thanks",
+      "thanks alot",
+      "thank you alot",
+      "You are the best",
+      "I appreciate your kindness and generosity.",
+      "Thank you for being such a great friend and support.",
+      "You are amazing! Thank you for everything you do.",
+      "Im so grateful for your help and guidance.",
+      "You have made a positive difference in my life. Thank you!",
+      "Thank you for your time and attention. It means a lot to me.",
+      "Thank you for sharing your wisdom and experience with me.",
+      "You have been so thoughtful and considerate. Thank you for your care and compassion.",
+      "You are a blessing in my life. Thank you for your love and loyalty."
+    ],
+    "bye": [
+      "Bye",
+      "Byee",
+      "goodbye",
+      "It was great talking to you. Bye for now!",
+      "I hope you have a wonderful day. Bye!",
+      "Take care and stay safe. Bye!",
+      "I enjoyed our conversation. See you soon. Bye!",
+      "Have a good one. Bye!"
+    ],
+    "cancel": [
+      "Cancel the current process",
+      "I want to cancel the procedure",
+      "Cancel this immediately",
+      "Stop this now",
+      "I want to cancel",
+      "Please stop",
+      "cancel ",
+      "please cancel this",
+      "stop this process",
+      "stop the current operation",
+      "stop this",
+      "i want to stop the procedure",
+      "cancel the process",
+      "cancel this"
+    ],
+    "company_info_1": [
+      "Could you provide details about what Cybershield specializes in?",
+      "Could you provide details about Cybershield?",
+      "I'd like to know more about Cybershield, can you help?",
+      "Can you provide information on Cybershield?",
+      "What does Cybershield do?",
+      "I'd like to know more about Cybershield.",
+      "Can you give me information on Cybershield?",
+      "Tell me about Cybershield.",
+      "What is Cybershield?",
+      "Who is Cybershield?"
+    ],
+    "company_info_2": [
+      "Who holds the reins of CyberShield's operations?",
+      "What organization oversees the functioning of CyberShield?",
+      "Which corporation is responsible for overseeing CyberShield?",
+      "Which organization holds the reins of CyberShield?",
+      "Who is in charge of the operations at CyberShield?",
+      "What entity oversees the management of CyberShield?",
+      "Which entity is responsible for running CyberShield?",
+      "Who is in charge of the operations at CyberShield?",
+      "Which corporation is responsible for running CyberShield?",
+      "I'm interested in knowing the organization that controls CyberShield.",
+      "Can you tell me which entity runs CyberShield?",
+      "What company is behind the management of CyberShield?",
+      "Who operates CyberShield?"
+    ],
+    "company_info_3": [
+      "How is CyberShield positioned in terms of industry influence?",
+      "In what capacity does CyberShield operate within its industry?",
+      "How does CyberShield contribute to its industry?",
+      "In what way is CyberShield integrated into the industry ecosystem?",
+      "In what capacity does CyberShield operate within its industry?",
+      "How does CyberShield fit into the market landscape?",
+      "What position does CyberShield hold in its field?",
+      "How does CyberShield fit into the market?",
+      "What is the primary function of CyberShield within the sector?",
+      "Can you describe CyberShield's function in the industry?",
+      "What role does CyberShield play?"
+    ],
+    "company_info_4": [
+      "What types of cybersecurity training initiatives does Cybershield provide to bolster digital protection skills?",
+      "What kind of cybersecurity training programs does Cybershield provide?",
+      "What educational programs does Cybershield offer to enhance cybersecurity skills?",
+      "Does Cybershield offer any programs to enhance our team's cybersecurity skills?",
+      "In what ways does Cybershield contribute to cyber defense learning?",
+      "Can Cybershield provide training to improve our IT security?",
+      "What services does Cybershield offer for cybersecurity education?",
+      "How does Cybershield help in security training?"
+    ],
+    "company_info_5": [
+      "Why is CyberShield the preferred choice for cyber protection?",
+      "In what ways does CyberShield's approach to cybersecurity surpass its competitors?",
+      "What are the competitive advantages of CyberShield in the cybersecurity industry?",
+      "Why should one choose CyberShield over other cybersecurity solutions?",
+      "What makes CyberShield stand out in the cybersecurity landscape?",
+      "Can you highlight the unique features of CyberShield?",
+      "How does CyberShield differentiate itself in the market?",
+      "What sets CyberShield apart from other platforms?"
+    ],
+    "company_info_7": [
+      "Can you list the services provided by CyberShield?",
+      "I'm interested in learning about the solutions that CyberShield provides. Can you inform me?",
+      "What kind of support does CyberShield provide to its clients?",
+      "What services does CyberShield offer?"
+    ],
+    "company_info_6": [
+      "Who was at the helm when CyberShield was first established?",
+      "Identify the individual who initiated CyberShield.",
+      "Who is the original founder of CyberShield?",
+      "What's the name of the person who created CyberShield?",
+      "I'm curious, who started CyberShield?",
+      "Can you tell me who the founder of CyberShield is?",
+      "Who established CyberShield ",
+      "Who founded CyberShield?"
+    ],
+    "company_info_8": [
+      "What services does CyberShield offer specifically?",
+      "What services does CyberShield offer in details?"
+    ],
+    "company_info_9": [
+      "What are the fees associated with your services?",
+      "Can you provide the pricing details for your security services?",
+      "How much does it cost to use your cybersecurity solutions?",
+      "What is the cost of CyberShield services"
+    ],
+    "company_info_10": [
+      "What are the advantages of supporting CyberShield through my contributions?",
+      "What kind of positive change does my financial support bring to CyberShield?",
+      "What positive impacts do my donations have at CyberShield?",
+      "Can you tell me the benefits of contributing to CyberShield?",
+      "How does CyberShield utilize the donations it receives?",
+      "What makes CyberShield a worthy choice for my donation?",
+      "Why should I donate at CyberShield?"
+    ],
+    "description": [
+      "I'd like to understand what CyberCoach is all about.",
+      "Explain the concept of CyberCoach to me.",
+      "Can you provide details about what CyberCoach entails?",
+      "I'm curious about cybercoach, what is it?",
+      "could you describe what cybercoach is?",
+      "give me an overview of cybercoach",
+      "what is cybercoach?"
+    ],
+    "faqs": [
+      "What questions do people often seek answers to?",
+      "Where can I find the list of FAQs?",
+      "Can you list the common questions people ask?",
+      "what are the frequently asked questions?"
+    ],
+    "incident_processing_report": [
+      "I need your assistance",
+      "I can’t  figure this out",
+      "I have a situation that I can’t understand",
+      "Can I report a case?",
+      "I need to report a security incident for your assistance"
+    ],
+    "incident_processing_made_wrong_transaction": [
+      "I've realized I initiated a payment to the wrong person, can you guide me through the process of correcting this error?",
+      "I mistakenly transferred funds to an incorrect recipient, how can I undo this transaction?",
+      "I mistakenly transferred funds to an incorrect recipient, what steps should I take now?",
+      "I accidentally sent money to the wrong account, how can I rectify this mistake?",
+      "I am just unsure with the money that I have transferred to wrong number, what can I do?\n"
+    ],
+    "incident_processing_recieved_wrong_transaction": [
+      "A transaction I don't recognize has been processed in my account",
+      "An incorrect transaction has appeared in my account",
+      "I have received an unknown transaction",
+      "I have received wrong wire transaction\n",
+      "I have received wrong wire transfer\n"
+    ],
+    "incident_processing_prevent_wrong_transaction": [
+      "How can I ensure that my financial transactions are always correct?",
+      "What steps should I take to prevent incorrect fund transfers?",
+      "What steps can I take to prevent erroneous financial transactions?",
+      "How do I safeguard against making unintended financial transfers?",
+      "What can I do to avoid improper money transactions?",
+      "What can I do to avoid unnecessary wire transfers?"
+    ],
+    "incident_processing_reverse_transaction": [
+      "Inadvertently sent mobile money to the wrong contact",
+      "Transferred mobile money to an unintended number by accident",
+      "Mobile money transaction directed to the wrong recipient in error",
+      "Mistakenly dispatched funds via mobile money",
+      "Mistakenly initiated a mobile money transfer to the wrong number",
+      "Mobile money sent to an incorrect party by mistake",
+      "Incorrectly executed a mobile money payment",
+      "Accidentally transferred mobile money to an unintended recipient",
+      "sent mobile money to wrong person ",
+      "sent mobile money incorrectly ",
+      "Made Wrong mobile money transactions."
+    ],
+    "incident_processing_cases_dos_attack": [
+      "What can I do if my device has been compromised with DDOS/DOS",
+      "DDOS attack",
+      "dos attack "
+    ],
+    "faqs_main": [
+      "Frequently asked questions",
+      "faqs"
+    ],
+    "incident_processing_cases_prevent_dos_attack": [
+      "defenses against DoS breaches on mobile devices",
+      "shield against DoS intrusions on Android",
+      "prevent dos attack on Android"
+    ],
+    "incident_processing_cases_prevent_data_breach": [
+      "prevent data breach"
+    ],
+    "incident_processing_cases_data_breach": [
+      "data breach"
+    ],
+    "incident_processing_cases_find_lost_device": [
+      "I lost my phone how can I get it or track it down."
+    ],
+    "site_functionality_register": [
+      "How can I register with the cybershield account\n"
+    ],
+    "site_functionality_forgot_password": [
+      "forgot password"
+    ],
+    "site_functionality_use_tms_system": [
+      "TMS",
+      "Training Management System (TMS)"
+    ],
+    "site_functionality_service_capacity": [
+      "site capacity",
+      "How many users can TMS hold?\n",
+      "How many users can phishing simulator hold?\n"
+    ],
+    "site_functionality_how_improve_security": [
+      "How can CyberShield help my business improve its cybersecurity posture?"
+    ],
+    "site_functionality_about_awareness_training": [
+      "Can you tell me more about CyberShield's Security Awareness Training?"
+    ],
+    "site_functionality_how_phishing_simulator_works": [
+      "How does CyberShield conduct its Phishing Simulations?",
+      "How does Phishing simulator operate?",
+      "how phishing simulator works"
+    ],
+    "site_functionality_about_security_consultancy": [
+      "What is unique about CyberShield's IT Security Consultancy?"
+    ],
+    "site_functionality_how_tms_works": [
+      "Can you explain how CyberShield's TMS System works"
+    ],
+    "site_functionality_how_rescue_works": [
+      "How does CyberShield's Cyber Rescue service work?"
+    ],
+    "site_functionality_about_software_solutions": [
+      "What software solutions does CyberShield offer?"
+    ],
+    "site_functionality_about_effective_services": [
+      "How does CyberShield ensure the effectiveness of its services?"
+    ],
+    "site_functionality_about_specific_industry_requirements": [
+      "Can CyberShield cater to specific industry requirements?"
+    ],
+    "site_functionality_about_getting_started": [
+      "How can I get started with CyberShield's services?"
+    ],
+    "out_of_database_unavailable_topic": [
+      "Can you tell me about [unavailable topic]?"
+    ],
+    "out_of_database_about_cybercoach": [
+      "Who are you?",
+      "Tell me about yourself"
+    ],
+    "out_of_database_bogus_1": [
+      "What's the weather like in Antarctica?"
+    ],
+    "out_of_database_bogus_3": [
+      "How many feathers does a chicken have?"
+    ],
+    "out_of_database_bogus_4": [
+      "What's your favorite color?"
+    ],
+    "out_of_database_bogus_5": [
+      "Do you believe in aliens?"
+    ],
+    "out_of_database_easteregg": [
+      "G_N_I_H_S_I_H_P"
+    ],
+    "out_of_database_riddle": [
+      "Riddle"
+    ],
+    "incident_processing_mainmenu": [
+      "Incidences"
+    ],
+    "incident_processing_common_incidents": [
+      "sample incidents",
+      "common incidents"
+    ],
+    "site_functionality_faqs_site_and_services": [
+      "faqs site and services"
+    ],
+    "faqs_cybershield": [
+      "About CyberShield ",
+      "Faqs CyberShield "
+    ]
+  },
+  "language": "english",
+  "webhook_url": "",
+  "webhook_trigger_intents": [],
+  "bot_type": "rule",
+  "confidence_threshold": 0,
+  "index_as_fallback": false,
+  "fallback_message": ""
+}

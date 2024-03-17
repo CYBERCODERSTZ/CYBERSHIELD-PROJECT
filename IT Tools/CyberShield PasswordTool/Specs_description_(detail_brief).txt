@@ -1,0 +1,35 @@
+Password Generator Tool Manifest
+Target audience: online application users looking to design a user-friendly 
+password.
+Goal: Create a simple yet effective tool that generates strong and unique 
+passwords while incorporating user input for a touch of personalization.
+Features:
+• User input: Allows users to enter a base string of approximately 5 
+characters. 
+• Random character mixing: Uses a secure algorithm to shuffle and mix the 
+user's input characters with additional random characters to generate a 
+16-character password.
+• Visual strength indicator: Displays a color-coded or bar-graph 
+indicator representing the generated password's strength (e.g., green 
+for strong, yellow for moderate, red for weak).
+• Optional character pool customization: Allows advanced users to choose 
+which character types (uppercase/lowercase letters, numbers, symbols) 
+are included in the generated password.
+• Copy to clipboard button: Enables users to easily copy the generated 
+password to their clipboard for pasting into login fields.
+Language and tone:
+Python or any other general-purpose language
+Algorithm implementation: - choose any is best for you to work with
+• Secure randomness: Utilize a cryptographically secure random number 
+generator (CSPRNG) to ensure randomness and prevent predictability in 
+the generated passwords. Popular CSPRNG algorithms include ChaCha20 and 
+AES-CTR.
+• Character mixing: Implement a shuffling algorithm like the Fisher-Yates 
+shuffle to randomly mix the user's input characters with additional 
+random characters from the chosen pool.
+• Password strength estimation: Use a lightweight password strength 
+estimation algorithm like zxcvbn to provide visual feedback on the 
+generated password's security.
+Additional considerations:
+• Security: Implement best practices for secure password generation and 
+storage. Avoid storing user input or generated passwords in plain text.
